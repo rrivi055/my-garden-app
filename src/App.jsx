@@ -6,7 +6,7 @@ function App() {
     <div>
       <Header />
       <main style={{ padding: '20px' }}>
-        <Flower />
+        <Flower name="חמנייה" petalColor="gold" centerColor="saddlebrown" />
       </main>
     </div>
   );
