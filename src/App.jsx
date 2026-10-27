@@ -15,6 +15,7 @@ function App() {
       <main style={{ padding: '20px' }}>
         {flowers.map((flower) => (
           <Flower
+            key={flower.id}
             name={flower.name}
             petalColor={flower.petalColor}
             centerColor={flower.centerColor}
