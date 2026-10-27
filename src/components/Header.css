@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 30px;
+  background-color: #4caf50;
+}
+
+.header-title {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.header-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
