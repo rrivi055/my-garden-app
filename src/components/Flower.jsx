@@ -1,4 +1,4 @@
-function Flower({ name, petalColor, centerColor }) {
+function Flower({ name, petalColor = 'pink', centerColor = 'yellow' }) {
 
   const handleClick = () => {
     alert(`אני פרח מסוג ${name}`);
